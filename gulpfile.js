@@ -50,4 +50,4 @@ gulp.task('watch', function() {
 //	gutil.log('Workflows are awesome'); 
 //});
 
-gulp.task('default', ['coffee', 'js', 'compass']);
+gulp.task('default', ['coffee', 'js', 'compass', 'watch']);
