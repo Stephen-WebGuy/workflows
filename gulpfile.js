@@ -40,6 +40,8 @@ gulp.task('compass', function() {
 		.pipe(gulp.dest('builds/development/css'))
 });
 
-gulp.task('log', function() {
-	gutil.log('Workflows are awesome'); 
-});
+//gulp.task('log', function() {
+//	gutil.log('Workflows are awesome'); 
+//});
+
+gulp.task('default', ['coffee', 'js', 'compass']);
